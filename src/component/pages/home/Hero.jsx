@@ -8,7 +8,7 @@ const Hero = () => {
                 <div className="justify-center container md:flex px-4 gap-16 md:px-10 items-start">
                     <div className="pr-[80px] md:pb-0 pb-12">
                         <h1 className="text-[60px] font-light font-rubik leading-[78px] text-white"> <samp className="font-bold font-rubik">Hello!</samp> This is <br /> Safayet Ahmed</h1>
-                        <p className="text-[26px] pt-4 font-rubik text-[#ffffffd8]">Front end developer with design experience <br /> with <span className="text-[#20A1C9]">3 years</span> experience</p>
+                        <p className="text-[26px] pt-4 font-rubik text-[#ffffffd8]">Front end developer who also know design <br /> with <span className="text-[#20A1C9]">3 years</span> experience</p>
                         <div className="flex pt-20 gap-4">
                             <div>
                                 <a href={resum} download>
