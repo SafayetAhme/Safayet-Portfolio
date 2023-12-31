@@ -3,7 +3,7 @@
 const Contact = () => {
     return (
         <div id="Contact" className="pb-28 container mx-auto">
-            <h1 className="text-white text-center font-rubik text-4xl pb-12 pt-28">Contact me_</h1>
+            <h1 className="text-white text-center font-rubik text-4xl pb-12 pt-28">Let's work together</h1>
             <div className=" block px-10  md:px-60">
                 <div className="block">
                     <input type="text" placeholder="Name" className="input bg-[#1216194d] border border-[#ffffff38] w-full" />

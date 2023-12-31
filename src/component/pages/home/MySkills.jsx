@@ -2,8 +2,10 @@
 
 const MySkills = () => {
     return (
-        <div id="skills" className="md:pt-28 container mx-auto pt-8 md:pb-12 px-8 md:px-20">
-            <img id="skills" src="https://i.ibb.co/w6HD89y/Group-1000015946-1.png" alt="" />
+        <div id="skills" className=" container mx-auto  md:pb-12 px-8 md:px-20">
+            <div class="relative  overflow-hidden bg-cover bg-no-repeat">
+                <img className=" transition duration-300 ease-in-out hover:scale-110" id="skills" src="https://i.ibb.co/Wy9F7C2/Group-1000016016.png" alt="" />
+            </div>
         </div>
     )
 }

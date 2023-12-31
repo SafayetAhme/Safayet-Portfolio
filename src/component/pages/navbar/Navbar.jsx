@@ -4,12 +4,13 @@ import { Link } from "react-scroll"
 const Navbar = () => {
 
     const navlinks = <>
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#aboutme">About Me</a></li>
-        <li><a href="#Project">Project</a></li>
-        <li><a href="#Design">Design</a></li>
-        <li><a href="#Contact">Contact</a></li>
+        <button className=" px-7 rounded-full mt-3 w-full py-3 hover:border-[#12D1E5] border relative inline-flex items-center justify-start overflow-hidden transition-all hover:bg-white group">
+            {/* purple box */}
+            <span className="w-0 h-0 rounded bg-[#12D1E5] border-[#12D1E5] text-white hover:bg-[#04e6ff] hover:border-[#04e6ff] shadow-lg shadow-cyan-500/50 ... absolute top-0 left-0 ease-out duration-500 transition-all group-hover:w-full group-hover:h-full -z-1"></span>
+            <span className="w-full font-medium text-[#050d11] transition-colors duration-300 ease-in-out group-hover:text-white z-10">
+                <li className="text-white"><a href="#Contact">Contact us</a></li>
+            </span>
+        </button>
     </>
 
     return (
@@ -25,7 +26,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div>
-                        <img className="w-[180px]" src="https://i.ibb.co/C7n7gg1/Group-1000015942.png" alt="" />
+                        <h1 className="text-white text-2xl font-rubik">safayet.com</h1>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
