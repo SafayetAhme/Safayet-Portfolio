@@ -1,5 +1,5 @@
-import Marquee from "react-fast-marquee";
-import resum from "../../../../public/image/resum.pdf"
+import resum from "../../../../public/image/resum.pdf";
+import video from "../../../../public/video/video.mp4"
 
 const Hero = () => {
     return (
@@ -8,7 +8,7 @@ const Hero = () => {
                 <div className="justify-center container md:flex px-4 gap-16 md:px-10 items-start">
                     <div className="pr-[80px] md:pb-0 pb-12">
                         <h1 className="text-[60px] font-light font-rubik leading-[78px] text-white"> <samp className="font-bold font-rubik">Hello!</samp> This is <br /> Safayet Ahmed</h1>
-                        <p className="text-[26px] pt-4 font-rubik text-[#ffffffd8]">I am Front End Developer l And Designer <br /> with <span className="text-[#20A1C9]">3 years</span> experience</p>
+                        <p className="text-[26px] pt-4 font-rubik text-[#ffffffd8]">Front end developer with design experience <br /> with <span className="text-[#20A1C9]">3 years</span> experience</p>
                         <div className="flex pt-20 gap-4">
                             <div>
                                 <a href={resum} download>
@@ -31,16 +31,16 @@ const Hero = () => {
                                 </a>
                             </div>
                             <a href="https://mail.google.com/mail/u/0/#sent" target="_blank">
-                            <button class="text-white border border-[#ffffff4a] py-3 rounded-full px-8">asafayet21@gmail.com</button>
+                                <button class="text-white border border-[#ffffff4a] py-3 rounded-full px-8">asafayet21@gmail.com</button>
                             </a>
                         </div>
                     </div>
-                    <div className="w-[400px]">
-                        <img src="https://i.ibb.co/dMBWj8T/Rectangle-10-1.png" alt="" />
+                    <div className="w-[400px] h-[100px]">
+                        <video src={video} className="rounded-xl" width="full" height="900px" autoPlay muted loop ></video>
+                        {/* <img src="https://i.ibb.co/dMBWj8T/Rectangle-10-1.png" alt="" /> */}
                     </div>
                 </div>
             </div>
-
             {/*  */}
             <div>
                 {/* <Marquee className="" pauseOnHover={true} speed={100}>

@@ -62,7 +62,7 @@ const MyProject = () => {
                         </div>
                         <div className="pt-6">
                             <h1 className="font-rubik text-[#051418] font-bold text-2xl">SK BUILDERS</h1>
-                            <p className="font-rubik pb-3 pt-2 text-[#051418] text-[17px]">This is a Real-Estate website build using the MERN (mongoDB, React.js, Node.js) stack</p>
+                            <p className="font-rubik pb-3 pt-2 text-[#051418] text-[15px]">This is a Real-Estate website build using the MERN (mongoDB, React.js, Node.js) stack</p>
                             <p className="font-inter text-[#040c0f] font-bold  text-[17px]">Technologies I have used</p>
                             <div className="flex pt-1 gap-1">
                                 <h1 className="border py-1 px-3 text-[13px] rounded-full font-rubik text-[#050d11] font-medium">javaScript</h1>
@@ -109,7 +109,7 @@ const MyProject = () => {
                         </div>
                         <div className="pt-6">
                             <h1 className="font-rubik text-[#051418] font-bold text-2xl">Education</h1>
-                            <p className="font-rubik pb-3 pt-2 text-[#051418] text-[17px]">This is a Full Stack Travel website built using the  MERN (mongoDB, Express.js, React.js, Node.js)  stack. The Platform provides a secure authentication system, payment system and Admin Dashboard and User Dashboard</p>
+                            <p className="font-rubik pb-3 pt-2 text-[#051418] text-[15px]">This is a Full Stack Travel website built using the  MERN (mongoDB, Express.js, React.js, Node.js)  stack. The Platform provides a secure authentication system, payment system and Admin Dashboard and User Dashboard</p>
                             <p className="font-inter text-[#040c0f] font-bold  text-[17px]">Technologies I have used</p>
                             <div className="flex pt-1 gap-1">
                                 <h1 className="border py-1 px-3 text-[13px] rounded-full font-rubik text-[#050d11] font-medium">javaScript</h1>
