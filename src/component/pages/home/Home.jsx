@@ -10,8 +10,6 @@ const Home = () => {
     return (
         <div className="">
             <Hero></Hero>
-            <MySkills></MySkills>
-            <AboutMe></AboutMe>
             <MyProject></MyProject>
             <UIUXDesign></UIUXDesign>
             <Contact></Contact>

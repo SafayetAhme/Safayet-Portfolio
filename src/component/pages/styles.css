@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Rubik';
     src: url('path/to/rubik.woff2') format('woff2'),
          url('path/to/rubik.woff') format('woff');
@@ -172,7 +172,7 @@
        transform: scale(0.75);
        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
      }
-   }
+   } */
 
 
    /* .button {
